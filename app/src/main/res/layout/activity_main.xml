@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor da Conta (R$)"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gorjeta (%)"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gorjeta (R$): 15.00"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total da Conta: R$ 165.00"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir por quantas pessoas"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtPessoas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lDivisao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de R$ 41.25 por pessoa"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+</LinearLayout>
